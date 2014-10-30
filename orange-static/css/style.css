@@ -1,0 +1,45 @@
+body {
+    background: url("../img/bg.jpg") repeat fixed;
+}
+
+#header h1{
+    position: absolute;
+    top: 90px;
+    text-align: center;
+    width: 100%;
+}
+
+#description {
+    position: absolute;
+    top: 140px;
+    text-align: center;
+    width: 100%;
+}
+
+div:after {
+    clear: both;
+}
+
+.post{
+    background: #f2f2f2
+}
+
+.post {
+    padding: 25px 90px 22px;
+}
+
+.date p{
+    background-color: #eb374b;
+    color: #fff;
+    text-align: right;
+}
+.date .day{
+    font-size: 1.6875em;
+    display: block;
+}
+#content {
+    width: 690px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 255px;
+}
