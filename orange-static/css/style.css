@@ -28,10 +28,16 @@ div:after {
     padding: 25px 90px 22px;
 }
 
+.date {
+    float: left;
+    margin-left: -120px;
+}
 .date p{
     background-color: #eb374b;
     color: #fff;
     text-align: right;
+    padding: 5px 10px;
+    font-size: 0.75em;
 }
 .date .day{
     font-size: 1.6875em;
