@@ -20,6 +20,15 @@ div:after {
     clear: both;
 }
 
+#navigation{
+    height: 38px;
+    background: url("../img/sprite.png") ;
+
+}
+#search{
+    background: url("../img/sprite.png") 0 -600px no-repeat;
+}
+
 .post{
     background: #f2f2f2
 }
