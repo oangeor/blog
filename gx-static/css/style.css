@@ -14,7 +14,9 @@
     /*overflow: hidden;*/
 }
 #sidebar{
-    /*top:300px;*/
+    position:fixed;
+    overflow: hidden;
+    zoom: 1;
     top:45%;
     /*margin-left: 35px;*/
     /*margin-right: 35px;*/
@@ -23,8 +25,6 @@
     float: left;
     width: 410px;
     /*height: 900px;*/
-    position:fixed;
-    /*padding: 0 35px 0 35px;*/
 }
 
 
@@ -36,8 +36,8 @@
     /*font-family:"Times New Roman",Georgia,Serif;*/
 
     letter-spacing: 10px;
-    /*margin: ;*/
     margin-left: auto; margin-right: auto;
+    margin-bottom: 53px;
 }
 
 #navigation{
@@ -57,7 +57,7 @@ ul.nav {
     /*padding: ;*/
     color:#333333;
     
-    margin: 1.2em 0;
+    margin: 20px 0;
 
 }
 
@@ -89,9 +89,13 @@ ul.nav {
     margin-top: 96px;
     font-size: 20pt;
     font-family: "ProximaNova-Semibold";
+    letter-spacing: 3px;
+}
+.post-title p{
+    margin-bottom: 0;
+    font-size: 20px;
 }
 .post-content{
-    /*height: 100px;*/
     color:#666666;
     line-height: 25px;
     font-size: 15px;
@@ -99,14 +103,15 @@ ul.nav {
 
 
 }
-#bottom-line{
-    border-bottom-style: dotted;
-    margin-top: 25px;
-}
 
 .post-date {
     color:#A7B0B0;
     font-family: "ProximaNova-Light";
     font-size: 12pt;
+    letter-spacing: 2px;
 }
 
+#bottom-line{
+    margin-top: 25px;
+    border-bottom: 2.9px dotted;
+}
