@@ -29,7 +29,7 @@
 
 
 #header p{
-    font-size: 21pt;
+    font-size: 20px;
     /*font-style: bold;*/
     /*font-weight: 600;*/
     font-family: "ProximaNova-Semibold";
@@ -48,21 +48,23 @@ ul.nav {
     padding: 0;
     list-style-type: none;
     font-family: "ProximaNova-Regular";
-    font-size: 14pt;
-    letter-spacing: 5px;
+    font-size: 14px;
+    letter-spacing: 4px;
 
 }
 .nav li{
     /*max-resolution: res;*/
     /*padding: ;*/
-    margin: 0.8em 0;
+    color:#333333;
+    
+    margin: 1.2em 0;
 
 }
 
 #about-me{
     color:#A7B0B0;
     margin-top: 80px;
-    font-size: 14pt;
+    font-size: 14px;
     font-family: "ProximaNova-Light";
 }
 
@@ -90,8 +92,9 @@ ul.nav {
 }
 .post-content{
     /*height: 100px;*/
+    color:#666666;
     line-height: 25px;
-    font-size: 12pt;
+    font-size: 15px;
     font-family: "ProximaNova-Regular";
 
 
